@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>intro-section-with-dropdown-navigation-main</title>
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <ul>
+        <img class="img" src="file:///E:/projects/intro-section-with-dropdown-navigation-main/images/logo.svg" alt="Logo">
+
+        <li class="leftlist" onclick="okay()" ><a href="#" >Features <img  src="file:///E:/projects/intro-section-with-dropdown-navigation-main/images/icon-arrow-down.svg" alt="Arrow"></a>  </li>
+        <li class="leftlist" onclick="okaytwo()"><a href="#">Company<img  src="file:///E:/projects/intro-section-with-dropdown-navigation-main/images/icon-arrow-down.svg" alt="Arrow"></a> </li>
+        <li class="leftlist"><a href="#">Careers</a></li>
+        <li class="leftlist"><a href="#">About</a></li>
+        <div class="login">
+        <li class="loginlink"><a href="#">Login</a></li>
+        <li class="registerlink"><a href="#">Register</a></li>
+        <img onclick="openimage()" id="lineimg"  src="file:///E:/projects/intro-section-with-dropdown-navigation-main/images/icon-menu.svg" alt="line">
+      </div>
+      <div id="mydiv">
+        <img src="file:///E:/projects/intro-section-with-dropdown-navigation-main/images/icon-todo.svg" alt=""> <a href="">  Todo List</a> <br>
+        <img src="file:///E:/projects/intro-section-with-dropdown-navigation-main/images/icon-calendar.svg" alt=""> <a href="">Calender</a> <br>
+        <img src="file:///E:/projects/intro-section-with-dropdown-navigation-main/images/icon-reminders.svg" alt=""> <a href="">Reminders</a> <br>
+        <img src="file:///E:/projects/intro-section-with-dropdown-navigation-main/images/icon-planning.svg" alt=""> <a href="">Planning</a>
+      </div>
+
+      <div id="mydivsecond">
+        <a href="#">History</a> <br>
+        <a href="#">Our Team</a> <br>
+        <a href="#">Blog</a>
+
+      </div>
+    
+
+    </ul>
+
+    
+    <div id="cross"> 
+      <img id="imgcross" onclick="closeimage()" src="file:///E:/projects/intro-section-with-dropdown-navigation-main/images/icon-close-menu.svg" alt="icon-close-menu">
+
+      <ul><li onclick="opendrop()"><a href="#">Features<img src="file:///E:/projects/intro-section-with-dropdown-navigation-main/images/icon-arrow-down.svg" alt="icon-arrow-down"></a> 
+        <ul id="crossdrop"><li><img src="file:///E:/projects/intro-section-with-dropdown-navigation-main/images/icon-todo.svg" alt="#"> <a href="#">  Todo List</a> 
+        </li><br><li> <img src="file:///E:/projects/intro-section-with-dropdown-navigation-main/images/icon-calendar.svg" alt="#"> <a href="#">Calender</a> 
+        </li><br><li><img src="file:///E:/projects/intro-section-with-dropdown-navigation-main/images/icon-reminders.svg" alt="#"> <a href="#">Reminders</a> 
+        </li><br><li><img src="file:///E:/projects/intro-section-with-dropdown-navigation-main/images/icon-planning.svg" alt="#"> <a href="#">Planning</a>
+        </li></ul></li></ul>
+
+        <ul><li onclick="opendroptwo()"><a href="#">Company <img src="file:///E:/projects/intro-section-with-dropdown-navigation-main/images/icon-arrow-down.svg" alt="icon-arrow-down"></a>
+          <ul id="crossdroptwo"><li><a href="#">History</a></li><br><li><a href="#">Our Team</a></li><br><li><a href="#">Blog</a></li></ul>
+        
+        </li></ul> <ul><li><a href="#">Careers</a></li><br><li><a href="#">About</a></li></ul>
+        <ul id="droplogin" >
+        <li><a href="#">Login</a></li><br>
+        <li id="reg"><a href="#">Register</a></li>
+      </ul>
+    </div>
+
+      
+    
+    </nav>
+
+
+    <div class="leftrightdiv">
+
+    <div class="left">
+      <h1 class="headertext">Make <br> remote work</h1>
+      <p class="parag">Get your team in suync, no matter your location. <br>
+        Sreamline processes, create team rituals, and <br>
+      watch productivity soar.</p>
+
+      <button class="btn">Learn more</button>
+
+      </div>
+      <div class="right">
+        <img class="imgright" src="file:///E:/projects/intro-section-with-dropdown-navigation-main/images/image-hero-desktop.png" alt="">
+      </div>
+
+    </div> <!-- end main div-->
+
+    <footer>
+      <img class="imgfooter" src="file:///E:/projects/intro-section-with-dropdown-navigation-main/images/client-databiz.svg" alt="Logo">
+      <img class="imgfooter" src="file:///E:/projects/intro-section-with-dropdown-navigation-main/images/client-audiophile.svg" alt="logo">
+      <img class="imgfooter"src="file:///E:/projects/intro-section-with-dropdown-navigation-main/images/client-meet.svg" alt="logo">
+      <img class="imgfooter" src="file:///E:/projects/intro-section-with-dropdown-navigation-main/images/client-maker.svg" alt="logo">
+    </footer>
+
+  </div>
+    
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
